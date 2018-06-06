@@ -8,6 +8,9 @@ namespace EvilFizzBuzz
 {
     public class FizzBuzzer
     {
-
+        public string[] ApplyFizz(params int[] numbers)
+        {
+            return numbers.Select(i => i % 3 == 0 ? "Fizz" : i.ToString()).ToArray();
+        }
     }
 }
