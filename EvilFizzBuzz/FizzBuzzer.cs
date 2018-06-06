@@ -12,5 +12,10 @@ namespace EvilFizzBuzz
         {
             return numbers.Select(i => i % 3 == 0 ? "Fizz" : i.ToString()).ToArray();
         }
+
+        public string[] ApplyBuzz(params int[] numbers)
+        {
+            return numbers.Select(i => i % 5 == 0 ? "Buzz" : i.ToString()).ToArray();
+        }
     }
 }
