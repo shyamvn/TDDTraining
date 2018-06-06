@@ -2,10 +2,10 @@
 using EvilFizzBuzz;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FizzBuzzTests
+namespace EvilFizzBuzzTests
 {
     [TestClass]
-    public class FizzBuzzTests
+    public class UnitTest1
     {
         [TestMethod]
         public void NumbersDivisibleBy3AreReplacedWithFizz()
